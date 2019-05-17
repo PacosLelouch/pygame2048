@@ -1,11 +1,13 @@
-ĞèÒª°²×°µÄ°ü£º
+éœ€è¦å®‰è£…çš„åŒ…ï¼š
 PyQt5
 pygame
-ÔËĞĞ·½Ê½£¨Ôİ¶¨£©£º
-´Ómain.py´ò¿ª¡£
+è¿è¡Œæ–¹å¼ï¼ˆæš‚å®šï¼‰ï¼š
+ä»main.pyæ‰“å¼€ã€‚
 
-Ê¹ÓÃpyinstaller£¨¿ÉÄÜĞèÒª°²×°pywin32£©Éú³Éexe£º
+ä½¿ç”¨pyinstallerï¼ˆå¯èƒ½éœ€è¦å®‰è£…pywin32ï¼‰ç”Ÿæˆexeï¼š
 pyinstaller --path=.../Python/Python36-32/Lib/site-packages/PyQt5/Qt/bin --add-data=".../Python/Python36-32/Lib/site-packages/PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll;/PyQt5/Qt/plugins/styles/" --add-data="2048.ico;." -F -w -i 2048.ico main.py -n 2048
 
-Èç£º
+å¦‚ï¼š
 pyinstaller --path=D:/Python/Python36-32/Lib/site-packages/PyQt5/Qt/bin --add-data="D:/Python/Python36-32/Lib/site-packages/PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll;/PyQt5/Qt/plugins/styles/" --add-data="2048.ico;." -F -w -i 2048.ico main.py -n 2048
+
+åœ¨distæ–‡ä»¶å¤¹ä¸­æœ‰å¯æ‰§è¡Œæ–‡ä»¶ã€‚
